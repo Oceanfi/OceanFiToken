@@ -8,8 +8,8 @@
         "format_contracts": "prettier --write --plugin=prettier-plugin-solidity ./contracts/**/*.sol",
         "compile": "hardhat clean && hardhat compile --force",
         "test_token": "hardhat test --network hardhat test/token.js",
-        "deploy_token_bscTestnet": "hardhat run --network bscTestnet scripts/deploy-token.js",
-        "verify_token_bscTestnet": "hardhat verify --network bscTestnet --constructor-args ./scripts/argument/token.js 0x91AFd4DEF52a973c633130B01Fb0C808cE4197c7",
+        "deploy_token_bsc": "hardhat run --network bsc scripts/deploy-token.js",
+        "verify_token_bsc": "hardhat verify --network bsc --constructor-args ./scripts/argument/token.js 0x1475FF9356a8f8099a675CA81a5A4DE481C15994",
         "coverage": "npx hardhat coverage"
     },
     "author": "oceanfi",
